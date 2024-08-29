@@ -1,0 +1,205 @@
+@font-face {
+    font-family:fantastic ;
+    src: url(ShiftyNotesRegular-BWZ6d.ttf);
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family:fantastic;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+#main{
+    
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(to bottom,rgb(255, 208, 0),rgb(255, 51, 0));
+}
+#page1{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    width: 100%;
+    height: 100vh;
+    
+}
+#fanta{
+    position:absolute;
+    height: 90vh;
+    width:32%;
+    padding-top: 5%;
+    z-index: 3;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)1s;
+   
+    
+}
+nav{
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vw 10% ;
+    z-index: 99;
+    color: rgb(15, 2, 2)
+    
+    
+
+}
+nav a{
+    text-decoration: none;
+    font-size:25px ;
+    color:rgb(17, 3, 3);
+    
+
+}
+.menu{
+    display: flex;
+    gap: 8vw;
+}
+nav i{
+    font-size: 1.5vw;
+}
+#png1 {
+    position: absolute;
+    width: 20%;
+    z-index: 1;
+    top:42%;
+    left:59%;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+   
+}
+#png2{
+   position:absolute;
+   width:18%;
+   z-index: 2;
+   top: 10%;
+   right:48%;
+   transition:all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+   
+}
+#page1 h1{
+    padding-top:10%;
+    font-size:38vw;
+    color:white
+} 
+#page2{
+    width: 100%;
+    height: 100vh;
+    display:flex;
+    
+    background-color: rgb(173, 44, 4);
+    
+}
+#page2-left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height:100%;
+   
+
+}
+#page2-left svg{
+    margin-top: 50%;
+    width:65%;
+    height:90%;
+}
+#page2-right{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    flex-direction: column;
+    width: 50%;
+    height:100%;
+    font-size: 22px;
+    color: #f0f8ff;
+    gap: 5vh;
+}
+#page2 h1{
+    font-size: 6vw;
+}
+#page2 p{
+    width: 80%;
+
+}
+#page3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vw;
+    width: 100%;
+    height: 100vh;
+    background-color: orangered;
+}
+.card{
+    
+    width: 22%;
+    height: 72vh;
+    border-radius: 10%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top:7%;
+
+}
+/* .card:nth-child(1){
+    background-color: rgba(105, 8, 105, 0.918);
+}
+.card:nth-child(2){
+    background-color: orange;
+}
+.card:nth-child(3){
+    background-color: rgb(126, 5, 5);
+} */
+.card h1{
+    font-size:3vw;
+    margin-top: 50vh;
+
+}
+.card button{
+    font-size:2vw;
+    width:40%;
+    height:10vh;
+    border: none;
+    border-radius:50px;
+    background-color:rgb(240, 135, 15);
+}
+#coke{
+    padding-bottom: 12%;
+    width:16%;
+    
+    position: absolute;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+    z-index: 1;
+    
+    
+}
+#grape{
+    width: 29%;
+    position: absolute;
+  
+    padding-bottom:12%;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)0.5s;
+}
+#purple{
+    width:18vw;
+    position:absolute;
+    transform: rotate(-25deg);
+    top:105%;
+    right:2%;
+    transition:all cubic-bezier(0.19, 1, 0.22, 1)1s;
+   
+}

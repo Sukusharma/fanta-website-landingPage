@@ -24,7 +24,7 @@ var t2 = gsap.timeline({scrollTrigger:{
     start:"20% 95%",
     end:"50% 50%",
     scrub:true,
-    markers:true,
+  
 }})
 t2.from("#coke",{
     rotate:"120deg",
